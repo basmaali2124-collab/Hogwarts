@@ -1,11 +1,11 @@
-import 'package:admin_dashboard/HARRY_POTER/cubit/hogwarts_cubit.dart';
-import 'package:admin_dashboard/HARRY_POTER/cubit/hogwarts_state.dart';
-import 'package:admin_dashboard/HARRY_POTER/presention/widgets/character_not_found.dart';
-import 'package:admin_dashboard/HARRY_POTER/presention/widgets/custom_article_widget.dart';
-import 'package:admin_dashboard/HARRY_POTER/presention/widgets/custom_botton_curve.dart';
-import 'package:admin_dashboard/HARRY_POTER/presention/widgets/error_state_widget.dart';
+import 'package:harry_potter/HARRY_POTER/cubit/hogwarts_cubit.dart';
+import 'package:harry_potter/HARRY_POTER/cubit/hogwarts_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:harry_potter/HARRY_POTER/presentation/widgets/character_not_found.dart';
+import 'package:harry_potter/HARRY_POTER/presentation/widgets/custom_article_widget.dart';
+import 'package:harry_potter/HARRY_POTER/presentation/widgets/custom_botton_curve.dart';
+import 'package:harry_potter/HARRY_POTER/presentation/widgets/error_state_widget.dart';
 
 class DetailsScreen extends StatelessWidget {
   const DetailsScreen({super.key, required this.charName});

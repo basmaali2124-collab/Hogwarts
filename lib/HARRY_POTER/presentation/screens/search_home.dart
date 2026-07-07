@@ -1,7 +1,7 @@
-import 'package:admin_dashboard/HARRY_POTER/cubit/hogwarts_cubit.dart';
-import 'package:admin_dashboard/HARRY_POTER/presention/screens/details_screen.dart';
+import 'package:harry_potter/HARRY_POTER/cubit/hogwarts_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:harry_potter/HARRY_POTER/presentation/screens/details_screen.dart';
 
 class SearchHome extends StatefulWidget {
   SearchHome({super.key});

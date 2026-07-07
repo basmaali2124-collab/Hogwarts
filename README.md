@@ -1,16 +1,47 @@
-# admin_dashboard
+# Hogwarts Characters Explorer
 
-A new Flutter project.
+A small Flutter app for Harry Potter fans. You can search for characters and
+see their details on a separate screen.
 
-## Getting Started
+Demo:
+<img width="400" height="901" alt="harrypoter" src="https://github.com/user-attachments/assets/b3d89093-9c65-4f15-892c-e57d69ba774d" />
 
-This project is a starting point for a Flutter application.
+## What it does
 
-A few resources to get you started if this is your first Flutter project:
+- Type a character's name in the search bar
+- Press "Discover" and it takes you straight to a details page with their
+  photo and info (house, species, patronus, etc.)
+- Shows a loading state while fetching and an error message if the
+  character isn't found or something goes wrong
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Built with
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter / Dart
+- Cubit 
+- Dio
+- HP-API (a free public Harry Potter API)
+
+## Folder structure
+
+```
+lib/
+├── cubit/
+├── services/
+├── presentation/
+│   ├── screens/
+│   └── widgets/
+└── main.dart
+```
+
+## How to run it
+
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Purpose
+
+This was a small project to practice using Cubit with a real API and
+handling loading/success/error states properly.

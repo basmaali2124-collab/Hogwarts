@@ -1,4 +1,4 @@
-import 'package:admin_dashboard/HARRY_POTER/services/model.dart';
+import 'package:harry_potter/HARRY_POTER/services/model.dart';
 
 abstract class HogwartsState {}
 

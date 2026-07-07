@@ -1,5 +1,5 @@
-import 'package:admin_dashboard/HARRY_POTER/cubit/hogwarts_state.dart';
-import 'package:admin_dashboard/HARRY_POTER/services/model.dart';
+import 'package:harry_potter/HARRY_POTER/cubit/hogwarts_state.dart';
+import 'package:harry_potter/HARRY_POTER/services/model.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

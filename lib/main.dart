@@ -1,7 +1,10 @@
-import 'package:admin_dashboard/HARRY_POTER/cubit/hogwarts_cubit.dart';
-import 'package:admin_dashboard/HARRY_POTER/presention/screens/search_home.dart';
+
+
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:harry_potter/HARRY_POTER/cubit/hogwarts_cubit.dart';
+import 'package:harry_potter/HARRY_POTER/presentation/screens/search_home.dart';
 
 void main() {
   runApp(const MyApp());
