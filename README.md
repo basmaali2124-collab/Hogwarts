@@ -4,7 +4,8 @@ A small Flutter app for Harry Potter fans. You can search for characters and
 see their details on a separate screen.
 
 Demo:
-<img width="400" height="901" alt="harrypoter" src="https://github.com/user-attachments/assets/b3d89093-9c65-4f15-892c-e57d69ba774d" />
+
+<img width="400" height="901" alt="harry" src="https://github.com/user-attachments/assets/eae241a2-bffe-440d-b1a6-44f49e014c6a" />
 
 ## What it does
 
